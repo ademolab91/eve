@@ -1,17 +1,7 @@
 from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
 from langchain.sql_database import SQLDatabase
 from langchain_experimental.sql import SQLDatabaseChain
 
-_prompt = ChatPromptTemplate.from_messages(
-    [
-        (
-            "system",
-            "Translate user input into pirate speak",
-        ),
-        ("human", "{text}"),
-    ]
-)
 _model = ChatOpenAI()
 
 # Connect to demo db
