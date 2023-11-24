@@ -1,40 +1,44 @@
 # eve
 
+Eve is a AI Data Analyst who answers your business questions based on a your business' data instead of you running SQL queries.
+
+You may interact with Eve using natural languages and it will reply in the same language
+
 ## Installation
 
 Install the LangChain CLI if you haven't yet
 
 ```bash
-pip install -U langchain-cli
+# pip install -U langchain-cli
+poetry install
 ```
 
-## Adding packages
+<!-- ## Adding packages -->
 
-```bash
-# adding packages from 
-# https://github.com/langchain-ai/langchain/tree/master/templates
+<!-- ```bash
+adding packages from
+https://github.com/langchain-ai/langchain/tree/master/templates
 langchain app add $PROJECT_NAME
 
-# adding custom GitHub repo packages
+adding custom GitHub repo packages
 langchain app add --repo $OWNER/$REPO
-# or with whole git string (supports other git providers):
-# langchain app add git+https://github.com/hwchase17/chain-of-verification
+or with whole git string (supports other git providers):
+langchain app add git+https://github.com/hwchase17/chain-of-verification
 
-# with a custom api mount point (defaults to `/{package_name}`)
+with a custom api mount point (defaults to `/{package_name}`)
 langchain app add $PROJECT_NAME --api_path=/my/custom/path/rag
-```
+``` -->
 
-Note: you remove packages by their api path
+<!-- Note: you remove packages by their api path -->
 
-```bash
+<!-- ```bash
 langchain app remove my/custom/path/rag
-```
+``` -->
 
-## Setup LangSmith (Optional)
-LangSmith will help us trace, monitor and debug LangChain applications. 
-LangSmith is currently in private beta, you can sign up [here](https://smith.langchain.com/). 
-If you don't have access, you can skip this section
-
+<!-- ## Setup LangSmith (Optional)
+LangSmith will help us trace, monitor and debug LangChain applications.
+LangSmith is currently in private beta, you can sign up [here](https://smith.langchain.com/).
+If you don't have access, you can skip this section -->
 
 ```shell
 export LANGCHAIN_TRACING_V2=true
