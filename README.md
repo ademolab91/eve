@@ -1,6 +1,6 @@
 # eve
 
-Transform how businesses interact with data by building a system where non-tech savvy users can query an e-commerce database using simple, everyday language. This challenge is all about bridging the gap between complex data management and intuitive user experience.
+Transforming how businesses interact with data by building a system where non-tech savvy users can query an e-commerce database using simple, everyday language. This challenge is all about bridging the gap between complex data management and intuitive user experience.
 
 ## Usage
 
@@ -83,3 +83,9 @@ We also expose port 8080 with the `-p 8080:8080` option.
 ```shell
 docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -p 8080:8080 my-langserve-app
 ```
+
+## About demo data (demo.sqlite3)
+
+The database is a retailer of scale models of classic cars. It contains typical business data, including information about customers, products, sales orders, sales order line items, and more.
+
+See more -> https://www.mysqltutorial.org/mysql-sample-database.aspx
