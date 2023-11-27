@@ -1,8 +1,10 @@
 # eve
 
-Eve is a AI Data Analyst who answers your business questions based on a your business' data instead of you running SQL queries.
+Transform how businesses interact with data by building a system where non-tech savvy users can query an e-commerce database using simple, everyday language. This challenge is all about bridging the gap between complex data management and intuitive user experience.
 
-You may interact with Eve using natural languages and it will reply in the same language
+## Usage
+
+Goto -> https://eve1-1-c9398496.deta.app/
 
 ## Installation
 
